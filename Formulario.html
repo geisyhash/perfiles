@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendaciones</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <form action="" method="POST">
+        <fieldset>
+            <aside>
+                <legend>Datos</legend>
+                <p><input type="text" name="Nombre" placeholder="Nombre" id="nombre" required></p>
+			    <p><input type="text" name="Apellido" placeholder="Apellido" id="apellido" required></p>
+                <p><input type="number" name="Edad" placeholder="Edad" id="edad" required></p>
+                <p>Sexo:</p>
+                <label>
+                    <input type="radio" name="Sexo" id="femenino">Femenino
+                </label>
+                <label>
+                    <input type="radio" name="Sexo" id="masculino">Masculino
+                </label>
+                <p><label for="birth">Fecha de Nacimiento:</label></p>
+                <p><input type="date" name="Nacimiento" placeholder="Fecha de nacimiento" id="birth" required></p>
+                <p><input type="text" name="Empresa" placeholder="Empresa" id="empresa" required></p>
+            </aside>
+            <section>
+                <legend>Recomendaciones</legend>
+                <p><textarea name="Recomendaciones" id="recomendaciones" cols="25" rows="3" placeholder="Recomendaciones"></textarea></p>
+            </section>
+            <footer>
+                <p><input type="reset"></p>
+			    <p><input type="submit" value="Submit"></p>
+            </footer>
+        </fieldset>
+    </form>
+</body>
+</html>

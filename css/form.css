@@ -1,0 +1,52 @@
+body  {
+    background-color: rgb(70, 45, 62);
+    color: rgb(98, 245, 30);
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+}
+
+aside, section {
+    float: left;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 50%;
+}
+
+section {
+    width: 50%;
+}
+
+footer {
+    position: relative;
+    clear: both;
+    left: 40%;
+}
+
+fieldset{
+	border: none;
+}
+
+input{
+	border: none;
+	background-color: antiquewhite;
+	text-align: center;
+	border-radius: 4px;
+}
+
+legend{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+    padding-top: 15px;
+}
+
+input[type="submit"]{ 
+	background-color: rgb(248, 221, 186);
+	cursor: pointer;
+}
+
+/*textarea{
+    font-size: 30px;
+  }*/

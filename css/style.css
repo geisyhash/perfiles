@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: rgb(70, 45, 62);
+    color: rgb(98, 245, 30);
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+}
+header{
+    margin: 0;
+    position: relative;
+    left: 45%;
+    padding-top: 2em;
+}
+
+figure {
+    margin: 0;
+    border: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+}
+
+img {
+    width: 100%;
+}
+
+#nombre{
+    margin: 0;
+    text-align: left;
+}
+
+.download {
+    position: relative;
+    left: 10%;
+    padding-bottom: 2em;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    transition: 5ms;
+}
+
+a:link {
+    color: rgb(98, 245, 30);
+}
+
+a:visited {
+    color: antiquewhite;
+}
+
+.curriculum:hover {
+    border-bottom: 1px solid;
+}
+
+.form:hover {
+    border-bottom: 1px solid;
+}
+
+.icon:hover {
+    font-size: xx-large;
+}
+
+.cuerpo {
+    text-align: center;
+}
+
+.icon {
+    display: inline-block;
+    font-size: larger;
+    margin: 0;
+}
+
+.icon-pinterest, .icon-facebook, .icon-twitter, .icon-instagram, .icon-linkedin, .icon-github {
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+}
+
+.footer {
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    padding-top: 2em;
+}
+
+.form {
+    margin: 0;
+}
